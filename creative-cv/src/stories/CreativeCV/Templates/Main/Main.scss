@@ -1,0 +1,17 @@
+.t-main {
+  /* For smartphone */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+  background-color: #f3f3f3;
+  padding: 0 15px;
+  flex-direction: column-reverse;
+  @media only screen and (min-width: 768px) {
+    /* For PC */
+    flex-direction: row;
+  }
+  .a-avatar {
+    border-radius: 50%;
+  }
+}

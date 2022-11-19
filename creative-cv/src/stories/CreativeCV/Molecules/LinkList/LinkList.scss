@@ -1,0 +1,12 @@
+.m-link-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  .a-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+  }
+}

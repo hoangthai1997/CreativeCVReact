@@ -1,0 +1,12 @@
+.m-nav-list--mobile {
+  list-style-type: none;
+  cursor: pointer;
+  li {
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    margin: 11px 0;
+    border-radius: 2px;
+    transition: 0.4s;
+  }
+}

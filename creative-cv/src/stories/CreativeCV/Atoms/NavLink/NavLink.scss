@@ -1,0 +1,12 @@
+.a-nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light",
+    sans-serif;
+  padding: 0px 10px;
+  &:hover {
+    color: #926402;
+  }
+}

@@ -1,0 +1,13 @@
+.m-author-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  dd {
+    display: flex;
+    align-items: center;
+    .a-icon--linkedln,
+    .a-icon--twitter {
+      max-width: 24px;
+    }
+  }
+}

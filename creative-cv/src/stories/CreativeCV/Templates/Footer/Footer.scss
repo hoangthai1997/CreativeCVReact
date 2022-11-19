@@ -1,0 +1,8 @@
+.t-footer {
+  border-top: 1px solid #000000;
+  padding: 0 15px;
+  margin: 0 auto;
+  @media only screen and (min-width: 768px) {
+    padding: 39px 0;
+  }
+}

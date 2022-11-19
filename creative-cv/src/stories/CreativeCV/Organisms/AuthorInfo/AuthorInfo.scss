@@ -1,0 +1,33 @@
+.o-author-info {
+  /* For smartphone */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 15px;
+  @media only screen and (min-width: 768px) {
+    /* For PC */
+    padding: 0;
+  }
+  .a-subheading {
+    margin: 0 16px;
+  }
+  .a-text {
+    /* For smartphone */
+    line-height: 25.6px;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+      /* For PC */
+      text-align: left;
+      margin: 0 17px;
+    }
+  }
+  .m-link-list {
+    /* For smartphone */
+    margin: 0 auto;
+    text-align: center;
+    @media only screen and (min-width: 768px) {
+      /* For PC */
+      margin: 0;
+    }
+  }
+}

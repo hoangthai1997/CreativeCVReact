@@ -1,0 +1,23 @@
+.o-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  .m-nav-list {
+    /* For smartphone */
+    display: none;
+    @media only screen and (min-width: 768px) {
+      /* For PC */
+      display: flex;
+      padding: 4px 0;
+    }
+  }
+  .m-nav-list--mobile {
+    /* For smartphone */
+    display: block;
+    @media only screen and (min-width: 768px) {
+      /* For PC */
+      display: none;
+    }
+  }
+}

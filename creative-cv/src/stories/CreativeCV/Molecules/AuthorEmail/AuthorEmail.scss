@@ -1,0 +1,8 @@
+.m-author-email {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  .a-email-link {
+    line-height: 22.4px;
+  }
+}
