@@ -8,7 +8,9 @@ import { NavListMobile } from "../../Molecules/NavListMobile/NavListMobile";
 export const Header = () => {
   return (
     <header className="o-header">
-      <AuthorBrand />
+      <h1>
+        <AuthorBrand />
+      </h1>
       <nav>
         <NavList />
         <NavListMobile />

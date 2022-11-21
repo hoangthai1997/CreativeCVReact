@@ -6,9 +6,9 @@ import { AuthorJob } from "../../Atoms/AuthorJob/AuthorJob";
 
 export const AuthorBrand = () => {
   return (
-    <h1 className="m-author-brand">
+    <div className="m-author-brand">
       <AuthorName />
       <AuthorJob />
-    </h1>
+    </div>
   );
 };
