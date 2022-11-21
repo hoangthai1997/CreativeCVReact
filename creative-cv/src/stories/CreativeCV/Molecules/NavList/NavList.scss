@@ -2,9 +2,10 @@
   list-style-type: none;
   display: flex;
   align-items: center;
+  gap: 4px;
   li {
     border-right: 1px solid black;
-    height: 20px;
+    height: 24px;
     padding: 0 2px;
     &:last-child {
       border-right: none;
