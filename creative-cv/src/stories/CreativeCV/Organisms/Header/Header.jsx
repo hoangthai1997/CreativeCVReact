@@ -11,8 +11,8 @@ export const Header = () => {
     <header className="o-header">
       <h1>
         <AuthorName />
-        <AuthorJob />
       </h1>
+      <AuthorJob />
       <nav>
         <NavList />
         <NavListMobile />
