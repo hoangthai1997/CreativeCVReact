@@ -2,20 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./AuthorName.scss";
 
-export const AuthorName = ({ href, value, ...props }) => {
+export const AuthorName = ({ value, ...props }) => {
   return (
-    <a className="a-author-name" href={href} {...props}>
+    <p className="a-author-name" {...props}>
       {value}
-    </a>
+    </p>
   );
 };
 
 AuthorName.propTypes = {
-  href: PropTypes.string,
   value: PropTypes.string,
 };
 
 AuthorName.defaultProps = {
-  href: "#",
   value: "Nicol Rider",
 };

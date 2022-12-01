@@ -1,15 +1,19 @@
 .o-header {
+  /* For smartphone */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
+  @media only screen and (min-width: 768px) {
+    /* For PC */
+    padding: 0;
+  }
   .m-nav-list {
     /* For smartphone */
     display: none;
     @media only screen and (min-width: 768px) {
       /* For PC */
       display: flex;
-      padding: 4px 0;
     }
   }
   .m-nav-list--mobile {

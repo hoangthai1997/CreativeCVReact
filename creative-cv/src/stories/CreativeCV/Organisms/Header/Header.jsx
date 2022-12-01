@@ -1,14 +1,18 @@
 import React from "react";
 
 import "./Header.scss";
-import { AuthorBrand } from "../../Molecules/AuthorBrand/AuthorBrand";
+import { AuthorName } from "../../Atoms/AuthorName/AuthorName";
+import { AuthorJob } from "../../Atoms/AuthorJob/AuthorJob";
 import { NavList } from "../../Molecules/NavList/NavList";
 import { NavListMobile } from "../../Molecules/NavListMobile/NavListMobile";
 
 export const Header = () => {
   return (
     <header className="o-header">
-      <AuthorBrand />
+      <h1>
+        <AuthorName />
+      </h1>
+      <AuthorJob />
       <nav>
         <NavList />
         <NavListMobile />
